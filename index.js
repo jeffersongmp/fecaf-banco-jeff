@@ -19,7 +19,12 @@ const lancamentos = [
     data: '2021-03-20',
     descricao:'mercado',
     valor: -243.55
-       },
+    },
+    {
+    data: '2021-04-20',
+    descricao: 'Posto Shell',
+    valor: 120.00
+    }
     ]
 const app = express();
 
