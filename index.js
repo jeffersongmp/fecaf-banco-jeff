@@ -25,13 +25,13 @@ const app = express();
 
 app.set('port',port);
 
-app.route('/extrato');get(
+app.route('/extrato').get(
     (req,res) => {
         res.status(200).json(lancamentos)
     }
 )
 
-app.listen(port,() => {
+app.listen(port, () => {
     console.log("Serviço Iniciado na porta !" + port);
 })
 
