@@ -1,0 +1,23 @@
+{
+  "name": "fecaf-banco-jeff",
+  "version": "1.0.0",
+  "description": "\"# fecaf-banco-jeff\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=0.12"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeffersongmp/fecaf-banco-jeff.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jeffersongmp/fecaf-banco-jeff/issues"
+  },
+  "homepage": "https://github.com/jeffersongmp/fecaf-banco-jeff#readme"
+}
